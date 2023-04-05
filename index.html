@@ -16,68 +16,82 @@
     <title>Frontend Mentor | Results summary component</title>
   </head>
   <body>
-    <main>
-      <article>
-        <p>Your Result</p>
+    <main class="main">
+      <article class="card card--result">
+        <p class="card--result__subheading">Your Result</p>
 
-        <div class="score">
-          <span> 76 </span>
-          <p>of 100</p>
+        <div class="score-area">
+          <span class="score-area__scored"> 76 </span>
+          <p class="score-area__total">of 100</p>
         </div>
 
-        <div class="remark">
-          <h1>Great</h1>
-          <p>
+        <div class="content">
+          <h1 class="content__heading">Great</h1>
+          <p class="content__detail">
             You scored higher than 65% of the people who have taken these tests.
           </p>
         </div>
       </article>
 
-      <article>
-        <h2>Summary</h2>
-
-        <div>
-          <ul>
-            <li>
+      <article class="card card--summary">
+        <h2 class="card-summary__title">Summary</h2>
+        <ul class="card--summary__list">
+          <li class="card--summary__list__item">
+            <span>
               <img
                 src="assets/images/icon-reaction.svg"
                 alt="icon-reaction"
                 srcset=""
               />
-              Reaction <span> <strong> 80 </strong>/ 100</span>
-            </li>
-            <li>
+              Reaction
+            </span>
+            <span> <strong> 80 </strong> / 100</span>
+          </li>
+          <li class="card--summary__list__item">
+            <span>
               <img
                 src="assets/images/icon-memory.svg"
                 alt="icon-memory"
                 srcset=""
-              />Memory <span> <strong> 92 </strong>/ 100</span>
-            </li>
-            <li>
+              />
+              Memory
+            </span>
+            <span> <strong> 92 </strong> / 100</span>
+          </li>
+          <li class="card--summary__list__item">
+            <span>
               <img
                 src="assets/images/icon-verbal.svg"
                 alt="icon-verbal"
                 srcset=""
-              />Verbal <span> <strong> 61 </strong>/ 100</span>
-            </li>
-            <li>
+              />
+              Verbal
+            </span>
+            <span> <strong> 61 </strong> / 100</span>
+          </li>
+          <li class="card--summary__list__item">
+            <span>
               <img
                 src="assets/images/icon-visual.svg"
                 alt="icon-visual"
                 srcset=""
-              />Visual <span> <strong> 72 </strong>/ 100</span>
-            </li>
-          </ul>
-          <a href="#">Continue</a>
-        </div>
+              />
+              Visual
+            </span>
+            <span><strong> 72 </strong> / 100</span>
+          </li>
+        </ul>
+        <a class="continue-link" href="#">Continue</a>
       </article>
     </main>
 
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="https://twitter.com/AatifSohel">Aatif Sohel</a>.
-    </div>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://twitter.com/AatifSohel">Aatif Sohel</a>.
+      </div>
+    </footer>
   </body>
 </html>
